@@ -1,0 +1,80 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("back.jpg");
+	display: flex;
+	justify-content: space-around;
+
+}
+.login-page{
+	height: 450px;
+	width: 400px;
+	background-color: #fff;
+	box-shadow: 0px 0px 15px 0px rgba(89, 96, 126, 1);
+	margin-top: 7%;
+	border-radius: 10px;
+	text-align: center;
+	background-image: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)),url("back.jpg");
+	background-size: cover;
+	/*clip-path: polygon(100% 58%, 100% 59%, 100% 100%, 57% 100%);*/
+}
+.login-page h1{
+	padding-top: 20px;
+	font-family: "Anton",sans-serif;
+	letter-spacing: 7px;
+	color: ;
+}
+.social-media{
+	padding: 10px;
+}
+.social-media i{
+	padding: 14px;
+	border-radius: 50%;
+	font-size: 25px;
+	border: 1px solid lightgreen;
+}
+.fa-instagram:hover{
+	color: orange;
+	background-color: #111;
+	border-color: #111;
+	font-size: 30px;
+	transition: 0.5s;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.fa-twitter:hover{
+	color: lightblue;
+	background-color: #111;
+	border-color: #111;
+	font-size: 30px;
+	transition: 0.5s;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+.input{
+	padding: 10px;
+	
+}
+
+.input .usr{
+	padding: 10px 25px;
+	border: none;
+	border: 2px solid #111;
+	margin: 0 0 15px;
+	border-radius: 6px;
+	width: 60%;
+
+}
+.login{
+	width: 60%;
+	background-color: #0FA3F4;
+	padding: 10px 25px;
+	border-radius: 6px;
+	border: none;
+	font-size: 22px;
+	font-family: Arial,sans-serif;
+	color: #fff;
+}
+.login:hover{
+	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+	transition: 0.4s;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
